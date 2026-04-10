@@ -1,0 +1,1 @@
+console.log('Lasco site loaded');
