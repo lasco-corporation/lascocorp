@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 280" role="img" aria-label="Lasco Corporation">
+  <defs>
+    <linearGradient id="lg-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7df8b"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#9c7a1c"/>
+    </linearGradient>
+    <linearGradient id="lg-navy" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#16335f"/>
+      <stop offset="100%" stop-color="#081426"/>
+    </linearGradient>
+    <linearGradient id="lg-silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#aebccf"/>
+    </linearGradient>
+    <clipPath id="clip-shield">
+      <path d="M120 22 L198 50 V138 C198 188 120 246 120 246 C120 246 42 188 42 138 V50 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Bouclier extérieur or -->
+  <path d="M120 8 L210 40 V142 C210 198 120 262 120 262 C120 262 30 198 30 142 V40 Z" fill="url(#lg-gold)"/>
+  <!-- Bouclier intérieur marine -->
+  <path d="M120 22 L198 50 V138 C198 188 120 246 120 246 C120 246 42 188 42 138 V50 Z" fill="url(#lg-navy)"/>
+
+  <!-- Gratte-ciels -->
+  <g clip-path="url(#clip-shield)">
+    <rect x="58" y="132" width="22" height="120" fill="url(#lg-gold)" opacity=".85"/>
+    <rect x="84" y="98" width="26" height="150" fill="url(#lg-silver)"/>
+    <rect x="81" y="90" width="32" height="8" fill="url(#lg-silver)"/>
+    <rect x="114" y="66" width="28" height="182" fill="url(#lg-silver)"/>
+    <rect x="111" y="58" width="34" height="8" fill="url(#lg-silver)"/>
+    <line x1="128" y1="40" x2="128" y2="58" stroke="url(#lg-silver)" stroke-width="3"/>
+    <rect x="146" y="120" width="30" height="130" fill="url(#lg-gold)"/>
+    <g stroke="#0a1930" stroke-width="2" opacity=".28">
+      <line x1="92" y1="104" x2="92" y2="240"/>
+      <line x1="100" y1="104" x2="100" y2="240"/>
+      <line x1="122" y1="72" x2="122" y2="240"/>
+      <line x1="130" y1="72" x2="130" y2="240"/>
+      <line x1="138" y1="72" x2="138" y2="240"/>
+    </g>
+    <g stroke="#ffffff" stroke-width="2" opacity=".3">
+      <line x1="65" y1="138" x2="65" y2="240"/>
+      <line x1="72" y1="138" x2="72" y2="240"/>
+      <line x1="154" y1="126" x2="154" y2="240"/>
+      <line x1="162" y1="126" x2="162" y2="240"/>
+      <line x1="170" y1="126" x2="170" y2="240"/>
+    </g>
+  </g>
+
+  <!-- Liseré or intérieur -->
+  <path d="M120 32 L188 56 V134 C188 178 120 232 120 232 C120 232 52 178 52 134 V56 Z" fill="none" stroke="url(#lg-gold)" stroke-width="2.5" opacity=".9"/>
+
+  <!-- Virgule dynamique -->
+  <path d="M14 216 C 84 202 158 172 234 128" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity=".95"/>
+  <path d="M8 232 C 86 218 166 186 238 142" fill="none" stroke="url(#lg-gold)" stroke-width="13" stroke-linecap="round"/>
+</svg>
